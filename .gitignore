@@ -1,0 +1,44 @@
+# Byte-compiled / optimized Python files
+*.pyc
+__pycache__/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts and distribution packages
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
+
+# Environment variables and secrets (DO NOT COMMIT!)
+.env
+*.env.* 
+
+# Log files
+*.log
+
+# Package manager caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+__pypackages__/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Virtual environment directories
+venv/
+venv3/
+.venv/
+env/
+.env/
+
+# Streamlit cache/config
+.streamlit/cache/
